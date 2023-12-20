@@ -2,7 +2,7 @@ import turtle
 from random import randint
 
 screen = turtle.Screen()
-screen.setup(width=1000, height=1000)
+screen.setup(width=700, height=500)
 
 screen.bgcolor("#92B6F5")
 screen.title("Welcome to the turtle race!")
@@ -10,6 +10,17 @@ screen.title("Welcome to the turtle race!")
 kasav = turtle.Turtle()
 kasav.penup()
 kasav.hideturtle()
+
+joe = turtle.Turtle()
+turtle.tracer(False)
+joe.hideturtle()
+joe.penup()
+joe.goto(-200, -120)
+joe.pendown()
+joe.pensize(5)
+joe.pencolor("black")
+joe.lt(90)
+joe.fd(300)
 
 turtle.tracer(False)
 kasav.goto(-200, 50)
