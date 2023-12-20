@@ -5,7 +5,7 @@ screen = turtle.Screen()
 screen.setup(width=700, height=500)
 
 screen.bgcolor("#92B6F5")
-screen.title("Welcome to the turtle race!")
+screen.title("Turtle race!")
 
 kasav = turtle.Turtle()
 kasav.penup()
