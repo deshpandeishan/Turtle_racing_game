@@ -5,7 +5,6 @@ screen = turtle.Screen()
 screen.setup(width=700, height=500)
 
 screen.bgcolor("#92B6F5")
-screen.title("Turtle race!")
 
 kasav = turtle.Turtle()
 kasav.penup()
@@ -44,7 +43,7 @@ for i in range(0, 30, square_size):
 turtle.update()
 
 turtle.tracer(True)
-screen.title("Welcome to turtle race!")
+screen.title("Turtle race!")
 color_set = (113, 231, 247)
 hex_color = "#{:02x}{:02x}{:02x}".format(*color_set)
 screen.bgcolor(hex_color)
